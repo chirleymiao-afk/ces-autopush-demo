@@ -2,7 +2,7 @@
   "name": "git-e2e-manual",
   "displayName": "git-e2e-manual",
   "description": "Customer Engagement Suite (CES) application for functional and end-to-end GitOps testing.",
-  "rootAgent": "support_root_agent",
+  "rootAgent": "support_root_agent_modified",
   "loggingSettings": {
     "conversationLoggingSettings": {
       "retentionWindow": "31536000s"
@@ -10,6 +10,6 @@
   },
   "metadata": {
     "scm_commit_mode": "MANUAL",
-    "scm_pending_changes_count": "15"
+    "scm_pending_changes_count": "17"
   }
 }
