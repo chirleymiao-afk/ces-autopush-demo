@@ -2,7 +2,7 @@
   "name": "git-e2e-manual",
   "displayName": "git-e2e-manual",
   "description": "Customer Engagement Suite (CES) application for functional and end-to-end GitOps testing.",
-  "rootAgent": "hello_world_modified",
+  "rootAgent": "hello_world",
   "loggingSettings": {
     "conversationLoggingSettings": {
       "retentionWindow": "31536000s"
