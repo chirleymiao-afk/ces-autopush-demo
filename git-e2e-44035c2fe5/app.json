@@ -1,8 +1,8 @@
 {
-  "name": "git-e2e-2dafc1e0dc",
-  "displayName": "git-e2e-2dafc1e0dc",
+  "name": "git-e2e-44035c2fe5",
+  "displayName": "git-e2e-44035c2fe5",
   "description": "Customer Engagement Suite (CES) application for functional and end-to-end GitOps testing.",
-  "rootAgent": "support_root_agent",
+  "rootAgent": "support_root_agent_modified",
   "loggingSettings": {
     "conversationLoggingSettings": {
       "retentionWindow": "31536000s"
@@ -10,6 +10,6 @@
   },
   "metadata": {
     "scm_commit_mode": "MANUAL",
-    "scm_pending_changes_count": "6"
+    "scm_pending_changes_count": "8"
   }
 }
