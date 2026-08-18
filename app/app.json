@@ -1,8 +1,0 @@
-{
-  "displayName": "Functional Test Agent",
-  "description": "Customer Engagement Suite (CES) application for functional and end-to-end GitOps testing.",
-  "rootAgent": "support_root_agent",
-  "metadata": {
-    "scm_commit_mode": "MANUAL"
-  }
-}
