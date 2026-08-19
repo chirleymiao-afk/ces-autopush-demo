@@ -1,0 +1,9 @@
+{
+  "name": "send_tv_refresh_signal",
+  "pythonFunction": {
+    "name": "send_tv_refresh_signal",
+    "pythonCode": "tools/send_tv_refresh_signal/python_function/python_code.py",
+    "description": "Sends an entitlement refresh signal to the customer\u0027s Rogers TV set-top box.\n\nArgs:\n    account_number: The 9-digit Rogers account number.\n    error_code: The error code displayed on screen (e.g. XRE-03007).\n\nReturns:\n    Dict[str, Any]:\n        - refresh_successful: bool indicating whether refresh packet was received.\n        - channels_restored: Number of authorized channel streams refreshed."
+  },
+  "displayName": "send_tv_refresh_signal"
+}

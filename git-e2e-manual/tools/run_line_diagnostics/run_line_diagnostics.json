@@ -1,0 +1,9 @@
+{
+  "name": "run_line_diagnostics",
+  "pythonFunction": {
+    "name": "run_line_diagnostics",
+    "pythonCode": "tools/run_line_diagnostics/python_function/python_code.py",
+    "description": "Runs remote DOCSIS/Fiber line diagnostic check on customer gateway.\n\nArgs:\n    account_number: The 9-digit Rogers account number.\n\nReturns:\n    Dict[str, Any]:\n        - line_status: \u0027OPTIMAL\u0027, \u0027DEGRADED\u0027, or \u0027OFFLINE\u0027.\n        - packet_loss_pct: Percentage of packet loss (0-100).\n        - snr_db: Signal-to-noise ratio in decibels."
+  },
+  "displayName": "run_line_diagnostics"
+}
