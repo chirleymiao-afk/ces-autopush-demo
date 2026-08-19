@@ -1,7 +1,7 @@
 {
   "displayName": "support_root_agent",
   "description": "Main customer support routing agent.",
-  "instruction": "You are the primary customer support agent for our service. Greet the customer professionally. Answer general questions and check user status. If the customer asks about billing, payments, invoices, refunds, or account balances, transfer them to the billing_sub_agent. Reference the customer_tier variable when addressing VIP customers.",
+  "instruction": "agents/support_root_agent/instruction.txt",
   "childAgents": [
     "billing_sub_agent"
   ]
