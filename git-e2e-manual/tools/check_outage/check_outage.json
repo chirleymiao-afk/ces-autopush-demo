@@ -1,9 +1,0 @@
-{
-  "name": "check_outage",
-  "pythonFunction": {
-    "name": "check_outage",
-    "pythonCode": "tools/check_outage/python_function/python_code.py",
-    "description": "Checks if there is an active area outage affecting the customer\u0027s account.\n\nArgs:\n    account_number: The 9-digit Rogers account number.\n\nReturns:\n    Dict[str, Any]:\n        - has_outage: bool indicating whether an area outage is active.\n        - outage_id: Outage incident reference ID if active, else None.\n        - estimated_restoration: Estimated time to restore service (ETTR)."
-  },
-  "displayName": "check_outage"
-}
