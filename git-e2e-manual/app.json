@@ -1,6 +1,6 @@
 {
   "displayName": "git-e2e-manual",
-  "description": "Customer Engagement Suite (CES) application v2 with root agent, account lookup tool, 2 variables, and 3 evaluation scenarios.",
+  "description": "Customer Engagement Suite (CES) application with root agent, sub-agent, 2 variables, and 3 evaluation scenarios.",
   "rootAgent": "support_root_agent",
   "variableDeclarations": [
     {

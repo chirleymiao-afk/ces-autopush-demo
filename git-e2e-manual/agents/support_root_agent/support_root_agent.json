@@ -1,8 +1,8 @@
 {
   "displayName": "support_root_agent",
-  "description": "Main customer support agent equipped with direct account lookup capabilities.",
+  "description": "Main customer support routing agent.",
   "instruction": "agents/support_root_agent/instruction.txt",
-  "tools": [
-    "account_lookup_tool"
+  "childAgents": [
+    "billing_sub_agent"
   ]
 }
