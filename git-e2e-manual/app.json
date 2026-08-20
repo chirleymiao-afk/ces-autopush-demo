@@ -1,0 +1,96 @@
+{
+  "name": "git-e2e-manual",
+  "displayName": "git-e2e-manual",
+  "rootAgent": "RogersResidentialTroubleshooting",
+  "loggingSettings": {
+    "conversationLoggingSettings": {
+      "retentionWindow": "31536000s"
+    }
+  },
+  "guardrails": ["Default Safety Guardrail", "Default Prompt Guardrail"],
+  "variableDeclarations": [{
+    "name": "mock_json",
+    "schema": {
+      "type": "OBJECT",
+      "properties": {
+        "mock_appointment": {
+          "type": "OBJECT",
+          "properties": {
+            "appointment_booked": {
+              "type": "BOOLEAN"
+            },
+            "scheduled_date": {
+              "type": "STRING"
+            },
+            "ticket_id": {
+              "type": "STRING"
+            }
+          }
+        },
+        "mock_line_diagnostics": {
+          "type": "OBJECT",
+          "properties": {
+            "line_status": {
+              "type": "STRING"
+            },
+            "packet_loss_pct": {
+              "type": "NUMBER"
+            },
+            "snr_db": {
+              "type": "STRING"
+            }
+          }
+        },
+        "mock_outage": {
+          "type": "OBJECT",
+          "properties": {
+            "estimated_restoration": {
+              "type": "STRING"
+            },
+            "has_outage": {
+              "type": "BOOLEAN"
+            },
+            "outage_id": {
+              "type": "STRING"
+            }
+          }
+        },
+        "mock_tv_refresh": {
+          "type": "OBJECT",
+          "properties": {
+            "channels_restored": {
+              "type": "NUMBER"
+            },
+            "refresh_successful": {
+              "type": "BOOLEAN"
+            }
+          }
+        }
+      },
+      "default": {
+        "mock_appointment": {
+          "appointment_booked": true,
+          "scheduled_date": "Tomorrow, 8:00 AM - 12:00 PM",
+          "ticket_id": "ROG-88219"
+        },
+        "mock_line_diagnostics": {
+          "line_status": "OPTIMAL",
+          "packet_loss_pct": 0.0,
+          "snr_db": "38.5 dB"
+        },
+        "mock_outage": {
+          "estimated_restoration": null,
+          "has_outage": false,
+          "outage_id": null
+        },
+        "mock_tv_refresh": {
+          "channels_restored": 142.0,
+          "refresh_successful": true
+        }
+      }
+    }
+  }],
+  "timeZoneSettings": {
+    "timeZone": "America/Los_Angeles"
+  }
+}
