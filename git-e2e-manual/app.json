@@ -8,6 +8,7 @@
       "retentionWindow": "31536000s"
     }
   },
+  "guardrails": ["Safety Guardrail 1787256214544"],
   "variableDeclarations": [{
     "name": "account_balance",
     "description": "The current account balance in USD.",
@@ -20,5 +21,8 @@
     "schema": {
       "type": "STRING"
     }
-  }]
+  }],
+  "timeZoneSettings": {
+    "timeZone": "America/Los_Angeles"
+  }
 }
