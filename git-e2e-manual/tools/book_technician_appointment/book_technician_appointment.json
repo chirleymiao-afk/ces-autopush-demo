@@ -1,9 +1,0 @@
-{
-  "name": "book_technician_appointment",
-  "pythonFunction": {
-    "name": "book_technician_appointment",
-    "pythonCode": "tools/book_technician_appointment/python_function/python_code.py",
-    "description": "Schedules a field technician dispatch and generates a service ticket.\n\nArgs:\n    account_number: The 9-digit Rogers account number.\n    time_slot: Preferred appointment window (e.g. \u0027morning\u0027, \u0027afternoon\u0027).\n\nReturns:\n    Dict[str, Any]:\n        - ticket_id: Unique Rogers support ticket ID (e.g. \u0027ROG-88219\u0027).\n        - appointment_booked: bool indicating successful booking.\n        - scheduled_date: Confirmed date for the appointment."
-  },
-  "displayName": "book_technician_appointment"
-}
