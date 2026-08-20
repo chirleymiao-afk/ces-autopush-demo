@@ -1,8 +1,7 @@
 {
+  "name": "637bfcf4-eb2f-4013-9f46-6ffc5ba90dd7",
   "displayName": "support_root_agent_v2",
   "description": "Main customer support agent v2 equipped with direct account lookup capabilities.",
   "instruction": "agents/support_root_agent_v2/instruction.txt",
-  "tools": [
-    "account_lookup_tool"
-  ]
+  "tools": ["account_lookup_tool"]
 }
