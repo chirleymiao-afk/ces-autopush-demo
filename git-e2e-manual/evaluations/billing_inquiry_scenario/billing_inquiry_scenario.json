@@ -1,14 +1,11 @@
 {
+  "name": "b4ae7663-7829-4d2a-b3ce-62de38ffbc53",
   "displayName": "billing_inquiry_scenario",
   "description": "Evaluate that the agent uses account_lookup_tool to answer billing and balance inquiries.",
   "scenario": {
     "task": "Ask the agent for your current account balance and status for account ID ACC-12345.",
+    "rubrics": ["The agent must invoke the account_lookup_tool with the account ID.", "The agent should communicate the account balance and status clearly to the customer."],
     "maxTurns": 6,
-    "userGoalBehavior": "USER_GOAL_SATISFIED",
-    "rubrics": [
-      "The agent must invoke the account_lookup_tool with the account ID.",
-      "The agent should communicate the account balance and status clearly to the customer."
-    ],
-    "scenarioExpectations": []
+    "userGoalBehavior": "USER_GOAL_SATISFIED"
   }
 }
