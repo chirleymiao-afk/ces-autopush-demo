@@ -1,13 +1,13 @@
 {
   "displayName": "billing_inquiry_scenario",
-  "description": "Evaluate that the agent answers questions about account balance and billing details.",
+  "description": "Evaluate that the agent uses account_lookup_tool to answer billing and balance inquiries.",
   "scenario": {
-    "task": "Ask the agent for your current account balance and when the next payment is due.",
+    "task": "Ask the agent for your current account balance and status for account ID ACC-12345.",
     "maxTurns": 6,
     "userGoalBehavior": "USER_GOAL_SATISFIED",
     "rubrics": [
-      "The agent must provide accurate billing and balance assistance.",
-      "The agent should communicate the account balance clearly."
+      "The agent must invoke the account_lookup_tool with the account ID.",
+      "The agent should communicate the account balance and status clearly to the customer."
     ],
     "scenarioExpectations": []
   }
