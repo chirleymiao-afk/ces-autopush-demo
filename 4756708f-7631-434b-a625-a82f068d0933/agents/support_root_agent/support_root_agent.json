@@ -1,7 +1,0 @@
-{
-  "name": "3c0b5c41-4a18-4b97-a581-3769d92754bf",
-  "displayName": "support_root_agent",
-  "description": "Main customer support routing agent.",
-  "instruction": "agents/support_root_agent/instruction.txt",
-  "childAgents": ["billing_sub_agent"]
-}
