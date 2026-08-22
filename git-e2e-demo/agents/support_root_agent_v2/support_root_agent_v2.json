@@ -1,6 +1,0 @@
-{
-  "name": "3a16a69f-e7a7-48bd-ac66-1bc825626f1a",
-  "displayName": "support_root_agent_v2",
-  "description": "Main customer support routing agent.",
-  "instruction": "agents/support_root_agent_v2/instruction.txt"
-}

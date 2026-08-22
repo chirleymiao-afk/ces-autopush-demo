@@ -2,7 +2,7 @@
   "name": "git-e2e-demo",
   "displayName": "git-e2e-demo",
   "description": "Customer Engagement Suite (CES) application with root agent, sub-agent, 2 variables, and 3 evaluation scenarios.",
-  "rootAgent": "support_root_agent_v2",
+  "rootAgent": "support_root_agent_v2_modified",
   "loggingSettings": {
     "conversationLoggingSettings": {
       "retentionWindow": "31536000s"
