@@ -1,0 +1,34 @@
+{
+  "displayName": "account_lookup_tool",
+  "description": "Look up customer account details, status, and current balance.",
+  "clientFunction": {
+    "name": "account_lookup_tool",
+    "description": "Look up customer account details, status, and current balance.",
+    "parameters": {
+      "type": "OBJECT",
+      "properties": {
+        "account_id": {
+          "type": "STRING",
+          "description": "The unique identifier of the customer account."
+        }
+      },
+      "required": [
+        "account_id"
+      ]
+    },
+    "response": {
+      "type": "OBJECT",
+      "properties": {
+        "status": {
+          "type": "STRING",
+          "description": "Account status, such as ACTIVE, PENDING, or SUSPENDED."
+        },
+        "balance": {
+          "type": "NUMBER",
+          "description": "The current account balance in USD."
+        }
+      }
+    }
+  },
+  "executionType": "SYNCHRONOUS"
+}
