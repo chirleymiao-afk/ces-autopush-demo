@@ -1,24 +1,21 @@
 {
-  "name": "git-e2e-demo",
-  "displayName": "git-e2e-demo",
+  "displayName": "git-e2e-manual",
   "description": "Customer Engagement Suite (CES) application with root agent, sub-agent, 2 variables, and 3 evaluation scenarios.",
-  "rootAgent": "support_root_agent_v2_modified",
-  "loggingSettings": {
-    "conversationLoggingSettings": {
-      "retentionWindow": "31536000s"
+  "rootAgent": "support_root_agent",
+  "variableDeclarations": [
+    {
+      "name": "customer_tier",
+      "description": "The loyalty/membership tier of the customer (e.g. Gold, Silver, Bronze).",
+      "schema": {
+        "type": "STRING"
+      }
+    },
+    {
+      "name": "account_balance",
+      "description": "The current account balance in USD.",
+      "schema": {
+        "type": "NUMBER"
+      }
     }
-  },
-  "variableDeclarations": [{
-    "name": "account_balance",
-    "description": "The current account balance in USD.",
-    "schema": {
-      "type": "NUMBER"
-    }
-  }, {
-    "name": "customer_tier",
-    "description": "The loyalty/membership tier of the customer (e.g. Gold, Silver, Bronze).",
-    "schema": {
-      "type": "STRING"
-    }
-  }]
+  ]
 }
