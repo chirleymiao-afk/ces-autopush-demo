@@ -1,5 +1,5 @@
 {
-  "name": "7f8fe4ef-dcf8-41be-8feb-c1011c4366e1",
+  "name": "3022a0af-cb71-463a-a7b1-8449840402f9",
   "displayName": "transfer_to_billing_scenario",
   "description": "Evaluate that the root agent routes payment and refund requests to the billing sub-agent.",
   "scenario": {
