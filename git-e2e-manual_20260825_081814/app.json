@@ -1,6 +1,6 @@
 {
-  "name": "chirleymiao-afk-d46272e7-demo-featu",
-  "displayName": "git-e2e-manual_20260824_215440",
+  "name": "chirleymiao-afk-d46272e7-feature-br",
+  "displayName": "git-e2e-manual_20260825_081814",
   "description": "Customer Engagement Suite (CES) application with root agent, sub-agent, 2 variables, and 3 evaluation scenarios.",
   "rootAgent": "support_root_agent",
   "loggingSettings": {
