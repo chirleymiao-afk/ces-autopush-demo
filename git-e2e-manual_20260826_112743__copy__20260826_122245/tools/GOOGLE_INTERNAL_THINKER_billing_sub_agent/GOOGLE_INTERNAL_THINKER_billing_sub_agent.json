@@ -1,0 +1,9 @@
+{
+  "name": "24e45696-cbe4-4ae6-a5c1-dc51b5b51f55",
+  "executionType": "ASYNCHRONOUS",
+  "displayName": "GOOGLE_INTERNAL_THINKER_billing_sub_agent",
+  "agentTool": {
+    "name": "GOOGLE_INTERNAL_THINKER_billing_sub_agent",
+    "agent": "billing_sub_agent"
+  }
+}

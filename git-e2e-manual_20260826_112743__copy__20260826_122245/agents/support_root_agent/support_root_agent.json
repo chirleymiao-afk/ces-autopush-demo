@@ -1,0 +1,21 @@
+{
+  "name": "54697c9f-a155-42d7-b337-42debf6ece91",
+  "displayName": "support_root_agent",
+  "description": "Main customer support routing agent.",
+  "instruction": "agents/support_root_agent/instruction.txt",
+  "childAgents": ["billing_sub_agent"],
+  "talkerAgent": {
+    "name": "projects/174864820443/locations/us-east1/apps/af923ac3-7d7c-4443-a8f2-09da0761fcb9/agents/54697c9f-a155-42d7-b337-42debf6ece91",
+    "displayName": "54697c9f-a155-42d7-b337-42debf6ece91",
+    "tools": ["GOOGLE_INTERNAL_THINKER_support_root_agent"]
+  },
+  "thinkerAgent": {
+    "name": "projects/174864820443/locations/us-east1/apps/af923ac3-7d7c-4443-a8f2-09da0761fcb9/agents/54697c9f-a155-42d7-b337-42debf6ece91",
+    "displayName": "54697c9f-a155-42d7-b337-42debf6ece91",
+    "description": "Main customer support routing agent.",
+    "modelSettings": {
+      "model": "gemini-3.0-flash-thinker-only-001"
+    },
+    "childAgents": ["billing_sub_agent"]
+  }
+}
