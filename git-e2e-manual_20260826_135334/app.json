@@ -1,8 +1,8 @@
 {
-  "name": "b67a5a65-16ea-46a2-b99a-7f6efecf1532",
-  "displayName": "new-frances-branch-1",
+  "name": "chirleymiao-afk-dbf82ffe-feature-br",
+  "displayName": "git-e2e-manual_20260826_135334",
   "description": "Customer Engagement Suite (CES) application with root agent, sub-agent, 2 variables, and 3 evaluation scenarios.",
-  "rootAgent": "support_root_agent123",
+  "rootAgent": "support_root_agent",
   "loggingSettings": {
     "conversationLoggingSettings": {
       "retentionWindow": "31536000s"
