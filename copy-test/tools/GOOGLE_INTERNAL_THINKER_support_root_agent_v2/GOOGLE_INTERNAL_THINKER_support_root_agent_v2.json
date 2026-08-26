@@ -1,0 +1,9 @@
+{
+  "name": "167a79b0-4270-43a3-80e6-ce2e26466d8e",
+  "executionType": "ASYNCHRONOUS",
+  "displayName": "GOOGLE_INTERNAL_THINKER_support_root_agent_v2",
+  "agentTool": {
+    "name": "GOOGLE_INTERNAL_THINKER_support_root_agent_v2",
+    "agent": "support_root_agent_v2"
+  }
+}
