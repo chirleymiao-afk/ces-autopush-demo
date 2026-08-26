@@ -1,0 +1,11 @@
+{
+  "name": "6d20e401-a44e-4609-907c-c4bd03e24c94",
+  "displayName": "transfer_to_billing_scenario",
+  "description": "Evaluate that the root agent routes payment and refund requests to the billing sub-agent.",
+  "scenario": {
+    "task": "Tell the support agent that you noticed an incorrect charge on your bill and request to speak with billing.",
+    "rubrics": ["The root agent must acknowledge the customer\u0027s billing dispute.", "The conversation must be transferred or routed to the billing sub-agent."],
+    "maxTurns": 6,
+    "userGoalBehavior": "USER_GOAL_SATISFIED"
+  }
+}
