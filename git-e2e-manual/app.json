@@ -1,0 +1,24 @@
+{
+  "name": "chirleymiao-afk-75e52acf-feature-br",
+  "displayName": "git-e2e-manual",
+  "description": "Customer Engagement Suite (CES) application v2 with root agent v2, account lookup tool, 2 variables, and 3 evaluation scenarios.",
+  "rootAgent": "support_root_agent_v2",
+  "loggingSettings": {
+    "conversationLoggingSettings": {
+      "retentionWindow": "31536000s"
+    }
+  },
+  "variableDeclarations": [{
+    "name": "account_balance",
+    "description": "The current account balance in USD.",
+    "schema": {
+      "type": "NUMBER"
+    }
+  }, {
+    "name": "customer_tier",
+    "description": "The loyalty/membership tier of the customer (e.g. Gold, Silver, Bronze).",
+    "schema": {
+      "type": "STRING"
+    }
+  }]
+}
