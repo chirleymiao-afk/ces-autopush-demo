@@ -1,0 +1,24 @@
+{
+  "name": "chirleymiao-afk-c-0393a614-copy-test",
+  "displayName": "copy-test_20260827_083438",
+  "description": "Customer Engagement Suite (CES) application with root agent, sub-agent, 2 variables, and 3 evaluation scenarios.",
+  "rootAgent": "support_root_agent",
+  "loggingSettings": {
+    "conversationLoggingSettings": {
+      "retentionWindow": "31536000s"
+    }
+  },
+  "variableDeclarations": [{
+    "name": "account_balance",
+    "description": "The current account balance in USD.",
+    "schema": {
+      "type": "NUMBER"
+    }
+  }, {
+    "name": "customer_tier",
+    "description": "The loyalty/membership tier of the customer (e.g. Gold, Silver, Bronze).",
+    "schema": {
+      "type": "STRING"
+    }
+  }]
+}

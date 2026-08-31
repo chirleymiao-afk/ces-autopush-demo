@@ -1,0 +1,11 @@
+{
+  "name": "77a3462f-d599-426b-ae3b-e42e963be4f3",
+  "displayName": "greeting_scenario",
+  "description": "Evaluate that the root agent warmly greets the user and explains available services.",
+  "scenario": {
+    "task": "Greet the agent and ask what support services you can help with.",
+    "rubrics": ["The agent must greet the user in a polite and helpful manner.", "The agent must clearly describe customer support capabilities."],
+    "maxTurns": 5,
+    "userGoalBehavior": "USER_GOAL_SATISFIED"
+  }
+}
