@@ -1,8 +1,8 @@
 {
   "name": "chirleymiao-afk-c-0393a614-copy-test",
   "displayName": "copy-test_20260827_083438",
-  "description": "Customer Engagement Suite (CES) application v2 with root agent v2, account lookup tool, 2 variables, and 3 evaluation scenarios.",
-  "rootAgent": "support_root_agent_v2",
+  "description": "Customer Engagement Suite (CES) application with root agent, sub-agent, 2 variables, and 3 evaluation scenarios.",
+  "rootAgent": "support_root_agent",
   "loggingSettings": {
     "conversationLoggingSettings": {
       "retentionWindow": "31536000s"
