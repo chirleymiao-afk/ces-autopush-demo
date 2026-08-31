@@ -1,0 +1,7 @@
+{
+  "name": "2fab5732-7068-455c-96e2-d7e4426ee0db",
+  "displayName": "support_root_agent",
+  "description": "Main customer support routing agent.",
+  "instruction": "agents/support_root_agent/instruction.txt",
+  "childAgents": ["billing_sub_agent"]
+}
