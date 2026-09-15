@@ -1,6 +1,0 @@
-{
-  "name": "56f331b4-709a-4b26-b604-884c6857b0f4",
-  "displayName": "billing_sub_agent",
-  "description": "Billing and account balance specialist agent.",
-  "instruction": "agents/billing_sub_agent/instruction.txt"
-}
