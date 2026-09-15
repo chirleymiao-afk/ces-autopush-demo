@@ -1,6 +1,6 @@
 {
   "name": "8205b3e8-4645-4f5b-a7cc-30f0ac003a29",
   "displayName": "Root agent",
-  "tools": ["custom_response"],
+  "tools": ["customize_response"],
   "childAgents": ["New agent 2026-09-15-131028"]
 }
