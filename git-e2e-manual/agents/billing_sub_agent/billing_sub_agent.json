@@ -1,5 +1,0 @@
-{
-  "displayName": "billing_sub_agent",
-  "description": "Billing and account balance specialist agent.",
-  "instruction": "agents/billing_sub_agent/instruction.txt"
-}
