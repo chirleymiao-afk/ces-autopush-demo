@@ -1,5 +1,6 @@
 {
   "name": "090b0640-a2fa-4da1-9cf9-09701bd27ca8",
   "displayName": "New agent 2026-09-15-162617",
-  "tools": ["end_session"]
+  "tools": ["end_session"],
+  "childAgents": ["New agent 2026-09-15-173202"]
 }
