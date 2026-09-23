@@ -1,0 +1,11 @@
+{
+  "name": "ce199705-2b10-44e3-850b-5468e7183b9d",
+  "displayName": "billing_inquiry_scenario",
+  "description": "Evaluate that the agent answers questions about account balance and billing details.",
+  "scenario": {
+    "task": "Ask the agent for your current account balance and when the next payment is due.",
+    "rubrics": ["The agent must provide accurate billing and balance assistance.", "The agent should communicate the account balance clearly."],
+    "maxTurns": 6,
+    "userGoalBehavior": "USER_GOAL_SATISFIED"
+  }
+}
