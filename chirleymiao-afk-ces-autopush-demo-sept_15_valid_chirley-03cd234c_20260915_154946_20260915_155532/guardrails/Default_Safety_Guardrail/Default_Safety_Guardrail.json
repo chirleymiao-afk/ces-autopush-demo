@@ -1,7 +1,7 @@
 {
   "name": "330332ad-24a7-4f98-bf92-76ff722ffd36",
   "displayName": "Default Safety Guardrail",
-  "enabled": true,
+  "enabled": false,
   "action": {
     "generativeAnswer": {
     }
