@@ -8,6 +8,9 @@
     }
   },
   "guardrails": ["Default Safety Guardrail", "Default Prompt Guardrail"],
+  "metadata": {
+    "scm_pending_changes_count": "0"
+  },
   "timeZoneSettings": {
     "timeZone": "America/Los_Angeles"
   }
