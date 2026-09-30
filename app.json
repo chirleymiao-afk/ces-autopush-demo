@@ -1,0 +1,17 @@
+{
+  "name": "chirleymiao-afk-ces-au-8e7af59d-main",
+  "displayName": "new_copy",
+  "rootAgent": "Root agent",
+  "loggingSettings": {
+    "conversationLoggingSettings": {
+      "retentionWindow": "31536000s"
+    }
+  },
+  "guardrails": ["Default Safety Guardrail", "Default Prompt Guardrail"],
+  "metadata": {
+    "scm_pending_changes_count": "0"
+  },
+  "timeZoneSettings": {
+    "timeZone": "America/Los_Angeles"
+  }
+}
