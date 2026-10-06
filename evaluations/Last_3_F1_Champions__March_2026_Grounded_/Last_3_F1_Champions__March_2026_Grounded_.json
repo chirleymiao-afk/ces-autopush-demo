@@ -1,0 +1,13 @@
+{
+  "displayName": "Last 3 F1 Champions (March 2026 Grounded)",
+  "scenario": {
+    "task": "Who were the last three champions?",
+    "rubrics": ["The agent accurately identifies the world champions for the completed seasons 2023-2025 using available tools.", "The agent explicitly mentions \u0027Formula 1\u0027 or \u0027F1\u0027 to ground the sport.", "The agent uses \u0027get_driver_season_results\u0027 or \u0027get_championship_standings\u0027 for 2023-2025.", "The agent maintains a professional Red Bull brand voice and refers to Max by his first name."],
+    "maxTurns": 1,
+    "variableOverrides": {
+    },
+    "taskCompletionBehavior": "TASK_SATISFIED",
+    "userGoalBehavior": "USER_GOAL_SATISFIED",
+    "evaluationExpectations": ["all years present"]
+  }
+}

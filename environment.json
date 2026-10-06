@@ -1,0 +1,10 @@
+{
+  "app": {
+    "loggingSettings": {
+      "bigqueryExportSettings": {
+        "project": "polysynth-test",
+        "dataset": "bq_loadtest_us_east1_us_east1"
+      }
+    }
+  }
+}

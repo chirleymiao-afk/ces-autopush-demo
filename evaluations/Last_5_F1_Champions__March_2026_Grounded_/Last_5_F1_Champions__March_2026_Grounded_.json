@@ -1,0 +1,11 @@
+{
+  "displayName": "Last 5 F1 Champions (March 2026 Grounded)",
+  "scenario": {
+    "task": "Who were the last 5 world champions?",
+    "rubrics": ["2025: Lando Norris", "2024: Max Verstappen (Oracle Red Bull Racing)", "2023: Max Verstappen (Oracle Red Bull Racing)", "2022: Official timing data unavailable", "2021: Official timing data unavailable"],
+    "scenarioExpectations": [{
+    }, {
+    }],
+    "maxTurns": 1
+  }
+}

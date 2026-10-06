@@ -1,0 +1,6 @@
+{
+  "displayName": "all years present",
+  "llmCriteria": {
+    "prompt": "Did the agent return champions for 2025, 2024, and 2023?"
+  }
+}

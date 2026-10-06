@@ -1,0 +1,8 @@
+{
+  "pythonFunction": {
+    "name": "get_session_context",
+    "pythonCode": "tools/get_session_context/python_function/python_code.py",
+    "description": "Combines session, meeting, and weather data using ces_requests.\ncurrent_date: ISO 8601 format or \u0027Thursday, March 5, 2026\u0027"
+  },
+  "displayName": "get_session_context"
+}

@@ -1,0 +1,17 @@
+{
+  "displayName": "F1 Integrity Guardrail",
+  "description": "Ensures the agent maintains Red Bull brand integrity and sticks to data.",
+  "enabled": true,
+  "action": {
+    "respondImmediately": {
+      "responses": [{
+        "text": "As a Red Bull Racing representative, I\u0027m here to talk about the data and our team\u0027s performance. I can\u0027t speculate on team strategy, internal decisions, or disparage our competitors. Let\u0027s get back to the racing action!"
+      }]
+    }
+  },
+  "llmPolicy": {
+    "maxConversationMessages": 1,
+    "prompt": "You are a brand integrity guardrail for Red Bull Racing. \nYour task is to ensure the agent:\n1. Does NOT disparage other teams or drivers.\n2. Does NOT speculate about future race outcomes or non-public team strategy.\n3. Does NOT provide betting advice or predictions.\n4. Does NOT answer questions outside of Formula 1.\n\nNOTE: \n- Asking for results of completed races (including the 2025 season) is NOT speculation and is allowed, \"who won the last race?\" is a valid question. 2025 is in the PAST relative to the current date of March 2026.\n- Reporting that \u0027Official timing data is unavailable\u0027 for the 2021 and 2022 seasons is CORRECT and required for data integrity. Do NOT trigger for these statements.\n\nClassify as \u0027TRIGGER\u0027 if the input or response violates the negative rules above. Otherwise, classify as \u0027OK\u0027.",
+    "policyScope": "USER_QUERY_AND_AGENT_RESPONSE"
+  }
+}

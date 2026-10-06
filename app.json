@@ -1,0 +1,70 @@
+{
+  "displayName": "chirley-test-git",
+  "description": "AI-powered Fan Experience Agent for Oracle Red Bull Racing.",
+  "rootAgent": "Root agent",
+  "audioProcessingConfig": {
+    "synthesizeSpeechConfigs": {
+      "en-US": {
+      },
+      "fr-FR": {
+      }
+    },
+    "bargeInConfig": {
+      "bargeInAwareness": true
+    }
+  },
+  "loggingSettings": {
+    "redactionConfig": {
+      "enableRedaction": true
+    },
+    "audioRecordingConfig": {
+    },
+    "bigqueryExportSettings": {
+      "enabled": true,
+      "project": "$env_var",
+      "dataset": "$env_var"
+    },
+    "cloudLoggingSettings": {
+      "enableCloudLogging": true
+    },
+    "conversationLoggingSettings": {
+      "retentionWindow": "31536000s"
+    },
+    "metricAnalysisSettings": {
+    }
+  },
+  "guardrails": ["Safety Guardrail 1772733891141", "Prompt Guardrail 1772733891141", "F1 Integrity Guardrail"],
+  "modelSettings": {
+    "model": "gemini-3.1-flash-live"
+  },
+  "variableDeclarations": [{
+    "name": "today",
+    "description": "The current date formatted for the fan experience.",
+    "schema": {
+      "type": "STRING"
+    }
+  }],
+  "globalInstruction": "global_instruction.txt",
+  "languageSettings": {
+    "defaultLanguageCode": "en-US",
+    "supportedLanguageCodes": ["fr-FR"]
+  },
+  "defaultChannelProfile": {
+    "personaProperty": {
+      "persona": "CONCISE"
+    }
+  },
+  "timeZoneSettings": {
+    "timeZone": "America/Los_Angeles"
+  },
+  "toolExecutionMode": "PARALLEL",
+  "errorHandlingSettings": {
+    "errorHandlingStrategy": "FALLBACK_RESPONSE",
+    "fallbackResponseConfig": {
+      "maxFallbackAttempts": 1
+    },
+    "endSessionConfig": {
+      "escalateSession": true
+    }
+  }
+}

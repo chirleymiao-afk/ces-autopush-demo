@@ -1,0 +1,10 @@
+{
+  "displayName": "meeting_specialist",
+  "description": "Specialist in F1 meetings, circuits, and the race calendar.",
+  "instruction": "agents/meeting_specialist/instruction.txt",
+  "tools": ["get_session_context", "openf1_data_fetcher"],
+  "beforeAgentCallbacks": [{
+    "pythonCode": "agents/meeting_specialist/before_agent_callbacks/before_agent_callbacks_01/python_code.py",
+    "description": "Programmatically set the current date variable."
+  }]
+}

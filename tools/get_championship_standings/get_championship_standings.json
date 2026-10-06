@@ -1,0 +1,8 @@
+{
+  "pythonFunction": {
+    "name": "get_championship_standings",
+    "pythonCode": "tools/get_championship_standings/python_function/python_code.py",
+    "description": "Retrieves current championship standings for drivers / teams.\ntype: \u0027drivers\u0027 or \u0027teams\u0027"
+  },
+  "displayName": "get_championship_standings"
+}

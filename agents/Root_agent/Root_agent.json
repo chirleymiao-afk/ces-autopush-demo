@@ -1,0 +1,10 @@
+{
+  "displayName": "Root agent",
+  "instruction": "agents/Root_agent/instruction.txt",
+  "tools": ["end_session", "get_championship_standings", "get_driver_season_results", "get_session_context", "openf1_data_fetcher"],
+  "childAgents": ["meeting_specialist"],
+  "beforeAgentCallbacks": [{
+    "pythonCode": "agents/Root_agent/before_agent_callbacks/before_agent_callbacks_01/python_code.py",
+    "description": "Programmatically set the current date variable."
+  }]
+}

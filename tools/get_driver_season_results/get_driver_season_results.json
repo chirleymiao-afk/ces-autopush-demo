@@ -1,0 +1,8 @@
+{
+  "pythonFunction": {
+    "name": "get_driver_season_results",
+    "pythonCode": "tools/get_driver_season_results/python_function/python_code.py",
+    "description": "Retrieves the final (or current) championship position and points for a driver for seasons from 2023 onwards."
+  },
+  "displayName": "get_driver_season_results"
+}

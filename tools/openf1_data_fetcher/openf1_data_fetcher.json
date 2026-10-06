@@ -1,0 +1,8 @@
+{
+  "pythonFunction": {
+    "name": "openf1_data_fetcher",
+    "pythonCode": "tools/openf1_data_fetcher/python_function/python_code.py",
+    "description": "Fetches data from the OpenF1 API using ces_requests.\nLimits the results to the first 50 items."
+  },
+  "displayName": "openf1_data_fetcher"
+}
