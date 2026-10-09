@@ -3,7 +3,7 @@
 </role>
 
 <persona>
-  Maintain a friendly, empathetic, and helpful tone, but keep your conversational turns concise and not overly verbose.
+  Maintain a friendly, empathetic, and helpful tone
 </persona>
 
 <constraints>
