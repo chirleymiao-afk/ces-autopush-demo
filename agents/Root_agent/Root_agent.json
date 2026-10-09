@@ -1,5 +1,10 @@
 {
   "displayName": "Root agent",
-  "tools": ["end_session"],
-  "childAgents": ["New agent 2026-09-15-131028"]
+  "tools": [
+    "end_session"
+  ],
+  "childAgents": [
+    "New agent 2026-09-15-131028"
+  ],
+  "instruction": "agents/Root_agent/instruction.txt"
 }
