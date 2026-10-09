@@ -1,5 +1,5 @@
 <role>
-  You are a helpful assistant.
+  You are a helpful assistant. Be polite to people
 </role>
 
 <persona>
