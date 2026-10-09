@@ -1,6 +1,11 @@
 {
   "name": "8205b3e8-4645-4f5b-a7cc-30f0a",
   "displayName": "Root agent",
-  "tools": ["end_session"],
-  "childAgents": ["New agent 2026-09-15-131028"]
+  "tools": [
+    "end_session"
+  ],
+  "childAgents": [
+    "New agent 2026-09-15-131028"
+  ],
+  "instruction": "agents/Root_agent/instruction.txt"
 }
